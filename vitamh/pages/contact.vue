@@ -1,22 +1,25 @@
 <template>
   <div class="container">
     <div class="row nav subtitle">
-        <NLink to="/" class="active">
+        <NLink to="/">
           Home
         </NLink>
         <NLink to="/work">
           Work
         </NLink>
-        <NLink to="/contact">
+        <NLink to="/contact" class="active">
           Contact
         </NLink>
     </div>
     <div class="row content">
-      <h1 class="title">
-        vita mh
-      </h1>
       <h2 class="subtitle">
-        website coming soon
+        vita.measurehughes@gmail.com
+      </h2>
+      <h2 class="subtitle">
+        soundcloud.com/vitamh
+      </h2>
+      <h2 class="subtitle">
+        instagram.com/vitamh_art
       </h2>
     </div>
   </div>
@@ -33,7 +36,6 @@ export default {}
 
 .nav {
   padding: 10px;
-  width: 100%;
  /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;*/
@@ -56,6 +58,7 @@ a:hover {
 
 .row {
   width: 100%;
+  min-height: 20vh;
 }
 
 .content {
@@ -64,8 +67,8 @@ a:hover {
   /*display: flex;
   flex-direction: row;
   flex-wrap: wrap;*/
-  text-align: center;
   margin-top: -100px;
+  text-align: center;
 }
 
 .title {
