@@ -34,6 +34,7 @@ export default {}
 .nav {
   padding: 10px;
   width: 100%;
+  min-width: 100vh;
  /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;*/
@@ -64,6 +65,7 @@ a:hover {
   /*display: flex;
   flex-direction: row;
   flex-wrap: wrap;*/
+  min-width: 100vh;
   text-align: center;
   margin-top: -100px;
 }
