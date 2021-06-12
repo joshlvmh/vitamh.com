@@ -29,12 +29,14 @@ export default {}
 <style>
 .container {
   min-height: 100vh;
+  min-width: 100vh;
 }
 
 .nav {
   padding: 10px;
   width: 100%;
   min-width: 100vh;
+  min-height: 20vh;
  /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;*/
